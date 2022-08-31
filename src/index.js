@@ -2,6 +2,7 @@ albums=["Taylor Swift","Fearless","Speak Now","Red","1989","Speak Now","Reputati
 const url="https://taylorswiftapi.herokuapp.com/get?album=";
 const cardNode=document.querySelector('.card');
 const clickMe=document.querySelector('.clickme');
+const funButton=document.querySelector('.fun');
 
 //creando componentes 
 const quote=document.createElement('h3');
@@ -31,5 +32,6 @@ clickMe.addEventListener('click',()=>{
     
 });
 
+funButton.addEventListener('click', ()=>{alert('this game is not mine, the creator: @thesephist');});
 
    
