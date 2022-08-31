@@ -1,0 +1,149 @@
+
+body{
+    background: #efceeb;
+    font-family: system-ui, sans-serif;
+    color: rgb(41, 41, 41);
+
+}
+#title{
+    margin-top: 1em;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#app{
+    
+    margin-top: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#app > .clickme{
+    width: 70%;
+    font-size: 2em;
+}
+
+
+#app> .card{
+    margin-top: 1em;
+    background: white;
+    width: 70%;
+    height: 50%;
+
+}
+
+#app> .card > div{
+    margin: 1em;
+    
+}
+
+#app> .card > div> h3{
+    text-align:center ;
+    font-size: 1.5em;
+    font-style: italic;
+    
+}
+
+#app> .card > div> p{
+    text-align:center ;
+    font-size: 1.2em;
+    
+}
+
+#app>a{
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+ }
+
+.footer> h3> a{
+    text-decoration: none;
+    color: black;
+
+ }
+
+ .footer> h3> a:hover{
+    color: blueviolet;
+
+ }
+
+ @media (max-width: 700px) {
+    #title{
+        font-size: 1em;
+    }
+
+    #app{
+    
+        margin-top: 1em;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #app > .clickme{
+        width: 70%;
+        font-size: 1.5em;
+    }
+
+    #app> .card > div> h3{
+        font-size: 1.1em;
+        
+    }
+
+    #app> .card > div> p{
+        font-size: 1em;
+        
+    }
+
+    .footer> h3> a{
+        font-size: 0.8em;
+    
+     }
+ }
+
+ @media (max-width: 400px) {
+    #title{
+        font-size: 1.2em;
+    }
+
+    #app{
+    
+        margin-top: 1em;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #app > .clickme{
+        width: 70%;
+        font-size: 1.1em;
+    }
+
+    #app> .card > div> h3{
+        font-size: 1em;
+        
+    }
+
+    
+
+    #app> .card > div> p{
+        font-size: 1em;
+        
+    }
+
+    .footer> h3> a{
+        font-size: 0.8em;
+    
+     }
+ }

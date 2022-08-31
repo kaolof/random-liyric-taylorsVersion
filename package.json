@@ -1,0 +1,15 @@
+{
+  "name": "taylor-random",
+  "version": "1.0.0",
+  "description": "generator of random lyrics of taylor swift, using TaylorSwiftAPI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Random-lyric-taylorsVersion"
+  },
+  "author": "Kao Lo kaochilanlo@gmail.com",
+  "license": "MIT"
+}
