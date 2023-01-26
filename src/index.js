@@ -1,5 +1,6 @@
 albums=["Taylor Swift","Fearless","Speak Now","Red","1989","Speak Now","Reputation","Lover","Folklore","Evermore"];
-const url="https://taylorswiftapi.herokuapp.com/get?album=";
+//const url="https://taylorswiftapi.herokuapp.com/get?album=";
+const url="https://taylorswiftapi.onrender.com/get?album=";
 const cardNode=document.querySelector('.card');
 const clickMe=document.querySelector('.clickme');
 const funButton=document.querySelector('.fun');
