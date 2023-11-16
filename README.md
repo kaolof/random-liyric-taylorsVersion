@@ -5,7 +5,6 @@
 ## Funcionalidades
 
 - **Selección Aleatoria:** Descubre canciones de Taylor Swift al azar con solo hacer clic en un botón.
-- **Interfaz Atractiva:** El diseño limpio y atractivo te brinda una experiencia de usuario agradable.
 - **Integración con API:** Utiliza la [API de canciones random de Taylor Swift](https://github.com/MitanshiKshatriya/taylor-swift-api) para obtener datos actualizados y sugerencias frescas.
 
 ## Tecnologías Utilizadas
