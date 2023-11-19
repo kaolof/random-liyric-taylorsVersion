@@ -1,13 +1,13 @@
 var albums = [
-    { album: "Taylor Swift", color: "#BCD5B8" },
-    { album: "Fearless", color: "azul" },
-    { album: "Speak Now", color: "verde" },
-    { album: "Red", color: "amarillo" },
-    { album: "1989", color: "rosa" },
-    { album: "Reputation", color: "morado" },
-    { album: "Lover", color: "celeste" },
-    { album: "Folklore", color: "verde oscuro" },
-    { album: "Evermore", color: "gris" }
+    { album: "Taylor Swift", color: "#bad3b6" },
+    { album: "Fearless", color: "#f4cd8c" },
+    { album: "Speak Now", color: "#d2b7d6" },
+    { album: "Red", color: "#823142" },
+    { album: "1989", color: "#bee9f9" },
+    { album: "Reputation", color: "#888083" },
+    { album: "Lover", color: "#888083" },
+    { album: "Folklore", color: "#d1d0cb" },
+    { album: "Evermore", color: "#cbb89a" }
 ];
 const url="https://taylorswiftapi.onrender.com/get?album=";
 const cardNode=document.querySelector('.card');
